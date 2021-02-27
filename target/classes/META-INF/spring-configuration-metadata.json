@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "sample",
+      "type": "com.project.petclinic.SampleProperties",
+      "sourceType": "com.project.petclinic.SampleProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sample.type-safe-parameter",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.project.petclinic.SampleProperties"
+    }
+  ],
+  "hints": []
+}

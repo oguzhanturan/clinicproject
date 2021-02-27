@@ -24,6 +24,17 @@
 	    <artifactId>spring-boot-devtools</artifactId>
 		<optional>true</optional><!-- gelistirme ortamında classpathde ekli olacak hot-reload sağlar ui cache i disable eder. -->
 	</dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-configuration-processor</artifactId>
+		<optional>true</optional>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+	<dependency>
+	    <groupId>org.projectlombok</groupId>
+	    <artifactId>lombok</artifactId>
+	    <scope>provided</scope>
+	</dependency>
   </dependencies>
   
   <properties>
